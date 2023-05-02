@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+.leftside{
+    flex-basis: 40%;
+    background-color: #1D4441;
+    border-top-right-radius: 10% ;
+    box-shadow: 1rem 1rem 1rem rgb(171, 170, 170);
+    display: grid;
+    justify-content: left;
+    align-items: center;
+    padding-left: 2rem;
+    letter-spacing: .2rem;
+}
+.texth1{
+    color: #F3EAD9;
+    text-align: left;
+    font-family: poppins;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+.highlight{
+    color: #6479D4;
+}
+.image{
+    width: 300px;
+    height: 300px;
+}
+.rightside{
+    flex-basis: 60%;
+    /* display: grid; */
+    justify-content: center;
+}
+.logo1{
+    margin-left: 30rem;
+}
+.logo{
+    width: 300px;
+    /* height: auto; */
+    padding: 1.5rem;
+}
+.form1{
+    margin-left: 10rem;
+}
+.text{
+    text-align: left;
+    font-family: poppins;
+    font-size: 2rem;
+    line-height: 4rem;
+}
+.inputtyppe{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+.button{
+    background-color: #2EC579;
+    border: none;
+    color: #F3EAD9;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 67%;
+    font-family: poppins;
+    font-size: 1rem;
+}
+.para{
+    font-family: poppins;
+    margin-top: 1rem;
+}
+.icon{
+    display: flex;
+}
+.icon1{
+    width: 2rem;
+    height: 2rem;
+    margin-top: .5rem;
+    margin-right: .5rem;
+}
